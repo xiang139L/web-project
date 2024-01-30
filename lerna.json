@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "version": "0.0.0", // 当前存储库的版本，当为 independent 时，开启独立模式
+  "npmClient": "pnpm", // 指定使用的 pnpm 客户端
+  "command": {
+    "publish": {
+      "npmClient": "npm",
+      "message": "chore(release): publish %s", // 发布时的提交信息
+      "registry": "https://registry.npmjs.org/", // 发布时的仓库地址
+    }
+  }
+}
