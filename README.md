@@ -54,7 +54,7 @@
 
 全局安装`markdownlint-cli`
 
-```bash
+```bashss
 npm i -g markdownlint-cli
 pnpm run lint
 ```
