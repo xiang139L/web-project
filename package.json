@@ -7,7 +7,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
-    "init": "pnpm init",
+    "init": "pnpm init --no-frozen-lockfile",
     "clear": "lerna clear && rm -rf node_modules",
     "test": "lerna run test",
     "docs:dev": "vuepress dev docs",
